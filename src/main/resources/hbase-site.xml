@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+<configuration>
+    <property>
+        <name>hbase.zookeeper.quorum</name>
+        <value>192.168.1.19:2181,192.168.1.20:2181,192.168.1.21:2181,192.168.1.22:2181,192.168.1.23:2181</value>
+<!--        <value>master1:2181, master2:2181, node1:2181, node2:2181, node3:2181</value>-->
+    </property>
+
+    <property>
+        <name>hbase.zookeeper.property.clientPort</name>
+        <value>2181</value>
+    </property>
+    <property>
+        <name>zookeeper.znode.parent</name>
+        <value>/hbase</value>
+    </property>
+</configuration>
